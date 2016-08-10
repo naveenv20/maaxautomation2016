@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="commonTest">
+
+
+
+
+<!--test name="Test 2">
+    <classes>
+        <class name="com.maax.businessmanager.common.sampleTest" ></class>  
+    </classes>
+</test>
+<test name="Test 3">
+    <classes>
+        <class name="com.maax.businessmanager.common.databasecheckTEST" ></class>  
+    </classes>
+</test-->
+<test name="Test 4">
+    <classes>
+        <class name="com.maax.businessmanager.common.Certificate_Add" ></class>  
+    </classes>
+</test>
+<!--test name="Test 4">
+    <classes>
+        <class name="com.maax.businessmanager.common.person_add_test" ></class>  
+    </classes>
+</test-->
+<!--test name="Test 6">
+    <classes>
+        <class name="com.maax.businessmanager.common.plan_copy" ></class>  
+    </classes>
+</test-->
+<!--test name="Test 7">
+    <classes>
+        <class name="com.maax.businessmanager.common.Policy_add" ></class>  
+    </classes>
+</test-->
+
+</suite>
+

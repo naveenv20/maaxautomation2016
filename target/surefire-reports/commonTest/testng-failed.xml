@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [commonTest]">
+  <listeners>
+    <listener class-name="com.maax.businessmanager.util.CustomListener"/>
+  </listeners>
+  <test name="Test 4(failed)">
+    <classes>
+      <class name="com.maax.businessmanager.common.Certificate_Add">
+        <methods>
+          <include name="certificateadd" invocation-numbers="3 2 1 4"/>
+        </methods>
+      </class> <!-- com.maax.businessmanager.common.Certificate_Add -->
+    </classes>
+  </test> <!-- Test 4(failed) -->
+</suite> <!-- Failed suite [commonTest] -->

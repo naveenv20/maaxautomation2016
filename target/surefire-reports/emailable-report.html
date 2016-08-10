@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><th colspan="7">commonTest</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test 4</td><td class="numi">5</td><td class="numi">1</td><td class="numi_attn">5</td><td class="numi">0</td><td class="numi">333.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">My Project</th></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">commonTest</th></tr>
+<tr><th colspan="4">Test 4 &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="5">com.maax.businessmanager.common.Certificate_Add</td><td><a href="#m1"><b>certificateadd</b>  </a></td><td class="numi">4</td><td>1470810210904</td><td class="numi">1003</td></tr><tr class="skippedodd"><td><a href="#m2"><b>certificateadd</b>  </a></td><td class="numi">4</td><td>1470810210904</td><td class="numi">1003</td></tr><tr class="skippedodd"><td><a href="#m3"><b>certificateadd</b>  </a></td><td class="numi">4</td><td>1470810210904</td><td class="numi">1003</td></tr><tr class="skippedodd"><td><a href="#m4"><b>certificateadd</b>  </a></td><td class="numi">4</td><td>1470810210904</td><td class="numi">1003</td></tr><tr class="skippedodd"><td><a href="#m5"><b>certificateadd</b>  </a></td><td class="numi">4</td><td>1470810210904</td><td class="numi">1003</td></tr>
+<tr><th colspan="4">Test 4 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">com.maax.businessmanager.common.Certificate_Add</td><td><a href="#m6"><b>certificateadd</b>  </a></td><td class="numi">1</td><td>1470810210787</td><td class="numi">332570</td></tr><tr class="passedodd"><td><a href="#m7"><b>certificateadd</b>  </a></td><td class="numi">1</td><td>1470810210787</td><td class="numi">332570</td></tr><tr class="passedodd"><td><a href="#m8"><b>certificateadd</b>  </a></td><td class="numi">1</td><td>1470810210787</td><td class="numi">332570</td></tr><tr class="passedodd"><td><a href="#m9"><b>certificateadd</b>  </a></td><td class="numi">1</td><td>1470810210787</td><td class="numi">332570</td></tr><tr class="passedodd"><td><a href="#m10"><b>certificateadd</b>  </a></td><td class="numi">1</td><td>1470810210787</td><td class="numi">332570</td></tr>
+<tr><th colspan="4">My Project</th></tr>
+</table>
+<h1>Test 4</h1>
+<h2 id="m1">com.maax.businessmanager.common.Certificate_Add:certificateadd</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{beneficary_relation=Self, policy=09420 (MEDAVIE), Certificate_number=000000005, Class=01: Sample class description, postal_code=L1C 1E2, Password=Welcome1, Username=bcchase, Member_LastName=Happy-New-Year-Too, City=Toronto, Subdivision=, Adress_type=Home Address, Address_line_1=Temple Street, Member_DOB=01-04-1973, RiskFactor=Risk 1 - YM, Sal_amount=4500.0, Division=001, Employment_type=Full Time Salary, hiredate=01-04-2013, job_titile=SYS ANALYST, Income_freq=Monthly, Plan=NKPLMBC:NKPLMBC SAMPLE, Province=Ontario, Number_of_hours=40.0, beneficiary_ls=HSTESTABJLS, Designated date=01-01-2000, Runmode=N, Province_of_Billing=Ontario, Country=Canada, correspondence_laun=English, Occupation_code=YA-Construction, beneficary_percentage=100.0, Column_to_search=Group Legal Name, Result=, Application_date=01-04-2013, Group_Legal_name=NKMBCGRP, Member_Gender=Male, number_of_units=10.0, Family_Category=Single, Member_FirstName=Geliz-Navidad, Browser=Firefox, Income_type=Salary}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Test case is configured as No</p>
+com.maax.businessmanager.util.TestBase.checkrunmodes(TestBase.java:79)
+<br/>at com.maax.businessmanager.util.TestBase.init(TestBase.java:56)
+<br/>at com.maax.businessmanager.common.Certificate_Add.certificateadd(Certificate_Add.java:22)
+<br/>16 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.maax.businessmanager.common.Certificate_Add:certificateadd</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{beneficary_relation=Self, policy=09420 (MEDAVIE), Certificate_number=000000004, Class=01: Sample class description, postal_code=V1C 1E2, Password=Welcome1, Username=bcchase, Member_LastName=Saulnier Levesque, City=Vancouver, Subdivision=, Adress_type=Home Address, Address_line_1=Temple Street, Member_DOB=01-05-1976, RiskFactor=Risk 1 - YM, Sal_amount=4500.0, Division=001, Employment_type=Full Time Salary, hiredate=01-05-2013, job_titile=SYS ANALYST, Income_freq=Monthly, Plan=NKPLMBC:NKPLMBC SAMPLE, Province=British Columbia, Number_of_hours=40.0, beneficiary_ls=HSTESTABJLS, Designated date=01-01-2000, Runmode=N, Province_of_Billing=British Columbia, Country=Canada, correspondence_laun=English, Occupation_code=YA-Construction, beneficary_percentage=100.0, Column_to_search=Group Legal Name, Result=, Application_date=01-05-2013, Group_Legal_name=NKMBCGRP, Member_Gender=Male, number_of_units=10.0, Family_Category=Single, Member_FirstName=Dhristabelladoux, Browser=Firefox, Income_type=Salary}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Test case is configured as No</p>
+com.maax.businessmanager.util.TestBase.checkrunmodes(TestBase.java:79)
+<br/>at com.maax.businessmanager.util.TestBase.init(TestBase.java:56)
+<br/>at com.maax.businessmanager.common.Certificate_Add.certificateadd(Certificate_Add.java:22)
+<br/>16 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.maax.businessmanager.common.Certificate_Add:certificateadd</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{beneficary_relation=Self, policy=09420 (MEDAVIE), Certificate_number=000000005, Class=01: Sample class description, postal_code=A1C 1E2, Password=Welcome1, Username=bcchase, Member_LastName=Trenholm, City=Lake city, Subdivision=, Adress_type=Home Address, Address_line_1=Temple Street, Member_DOB=01-07-1970, RiskFactor=Risk 1 - YM, Sal_amount=4500.0, Division=001, Employment_type=Full Time Salary, hiredate=01-04-2013, job_titile=SYS ANALYST, Income_freq=Monthly, Plan=NKPLMBC:NKPLMBC SAMPLE, Province=NFLD &amp; Labrador, Number_of_hours=40.0, beneficiary_ls=HSTESTABJLS, Designated date=01-01-2000, Runmode=N, Province_of_Billing=NFLD &amp; Labrador, Country=Canada, correspondence_laun=English, Occupation_code=YA-Construction, beneficary_percentage=100.0, Column_to_search=Group Legal Name, Result=, Application_date=01-04-2013, Group_Legal_name=NKMBCGRP, Member_Gender=Male, number_of_units=10.0, Family_Category=Single, Member_FirstName=Kasper, Browser=Firefox, Income_type=Salary}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Test case is configured as No</p>
+com.maax.businessmanager.util.TestBase.checkrunmodes(TestBase.java:79)
+<br/>at com.maax.businessmanager.util.TestBase.init(TestBase.java:56)
+<br/>at com.maax.businessmanager.common.Certificate_Add.certificateadd(Certificate_Add.java:22)
+<br/>16 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.maax.businessmanager.common.Certificate_Add:certificateadd</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{beneficary_relation=Self, policy=09420 (MEDAVIE), Certificate_number=000000005, Class=01: Sample class description, postal_code=E1C 1E2, Password=Welcome1, Username=bcchase, Member_LastName=Maxwell-Robbins, City=Moncton, Subdivision=, Adress_type=Home Address, Address_line_1=Temple Street, Member_DOB=01-04-1973, RiskFactor=Risk 1 - YM, Sal_amount=4500.0, Division=001, Employment_type=Full Time Salary, hiredate=02-04-2013, job_titile=SYS ANALYST, Income_freq=Monthly, Plan=NKPLMBC:NKPLMBC SAMPLE, Province=New Brunswick, Number_of_hours=40.0, beneficiary_ls=HSTESTABJLS, Designated date=01-01-2000, Runmode=N, Province_of_Billing=New Brunswick, Country=Canada, correspondence_laun=English, Occupation_code=YA-Construction, beneficary_percentage=100.0, Column_to_search=Group Legal Name, Result=, Application_date=02-04-2013, Group_Legal_name=NKMBCGRP, Member_Gender=Male, number_of_units=10.0, Family_Category=Single, Member_FirstName=Cobbi-Jo , Browser=Firefox, Income_type=Salary}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Test case is configured as No</p>
+com.maax.businessmanager.util.TestBase.checkrunmodes(TestBase.java:79)
+<br/>at com.maax.businessmanager.util.TestBase.init(TestBase.java:56)
+<br/>at com.maax.businessmanager.common.Certificate_Add.certificateadd(Certificate_Add.java:22)
+<br/>16 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.maax.businessmanager.common.Certificate_Add:certificateadd</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{beneficary_relation=Self, policy=09420 (MEDAVIE), Certificate_number=000000003, Class=01: Sample class description, postal_code=T1C 1E2, Password=Welcome1, Username=bcchase, Member_LastName=Romganaikaloo, City=Lake City, Subdivision=, Adress_type=Home Address, Address_line_1=Temple Street, Member_DOB=01-05-1972, RiskFactor=Risk 1 - YM, Sal_amount=4500.0, Division=001, Employment_type=Full Time Salary, hiredate=01-04-2013, job_titile=SYS ANALYST, Income_freq=Monthly, Plan=NKPLMBC:NKPLMBC SAMPLE, Province=Alberta, Number_of_hours=40.0, beneficiary_ls=HSTESTABJLS, Designated date=01-01-2000, Runmode=Y, Province_of_Billing=Alberta, Country=Canada, correspondence_laun=English, Occupation_code=YA-Construction, beneficary_percentage=100.0, Column_to_search=Group Legal Name, Result=, Application_date=01-04-2013, Group_Legal_name=NKMBCGRP, Member_Gender=Male, number_of_units=10.0, Family_Category=Single, Member_FirstName=Vargaret-Catherine, Browser=Firefox, Income_type=Salary}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
